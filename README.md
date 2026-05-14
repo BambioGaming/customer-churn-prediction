@@ -109,6 +109,17 @@ If `pip` points to the wrong Python version, use:
 python -m pip install -r requirements.txt
 ```
 
+Download the dataset from Kaggle:
+
+[Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset?resource=download)
+
+After downloading, place the CSV files inside the `dataset/` folder:
+
+```text
+dataset/customer_churn_dataset-training-master.csv
+dataset/customer_churn_dataset-testing-master.csv
+```
+
 ## How to Run the Notebook
 
 Open and run:
