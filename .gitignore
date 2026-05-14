@@ -1,0 +1,43 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit local/runtime files
+.streamlit/secrets.toml
+
+# Model artifacts and generated outputs
+*.pkl
+*.joblib
+model_metrics.json
+model_comparison.csv
+customer_churn_prediction_results.csv
+churn_prediction_template.csv
+report_rendered/
+
+# Local environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
